@@ -10,13 +10,13 @@ Most classical spatial statistics focus on spatial association: whether neighbor
 
 > **Do high- or low-valued areas form connected spatial regions, and which individual areas contribute most strongly to that connectivity?**
 
-Starting from observations \(x_1,\ldots,x_n\) on an undirected adjacency graph, the package centers and optionally scales the data,
+Starting from observations $(x_1,\ldots,x_n)$ on an undirected adjacency graph, the package centers and optionally scales the data,
 
 $$
 z_i = \frac{x_i-b}{s},
 $$
 
-and studies the connected components of thresholded graphs across non-negative thresholds. The **superlevel analysis** uses \(\mathbf z\) to study areas above the reference level \(b\), while the **sublevel analysis** applies the same construction to \(-\mathbf z\) to study areas below it.
+and studies the connected components of thresholded graphs across non-negative thresholds. The **superlevel analysis** uses $\mathbf z$ to study areas above the reference level $b$, while the **sublevel analysis** applies the same construction to $-\mathbf z$ to study areas below it.
 
 The number of connected components at each threshold is summarized by the Betti-0 curve.
 
