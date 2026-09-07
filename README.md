@@ -136,7 +136,7 @@ Large values of \(M_i(\mathbf z)\) indicate strong cumulative participation in t
 
 The raw magnitude of \(M_i\) is descriptive: areas that remain active over a wider range of thresholds have more opportunity to participate in merging. Local inference therefore conditions on the focal area's observed value. The resulting upper-tail test for \(M_i\) is exactly equivalent to a lower-tail test for \(L_i=A_i-M_i\).
 
-## Activation--merging decomposition
+## Activation-merging decomposition
 
 When an area enters the filtration, it may touch one or more connected components that are already active. Each such contact with a previously disconnected component generates one non-redundant fusion.
 
