@@ -16,7 +16,7 @@ $$
 z_i = \frac{x_i-b}{s},
 $$
 
-and studies the connected components of thresholded graphs across non-negative thresholds. The **superlevel analysis** uses $\mathbf z$ to study areas above the reference level $b$, while the **sublevel analysis** applies the same construction to $-\mathbf z$ to study areas below it.
+and studies the connected components of thresholded graphs across non-negative thresholds. The **superlevel analysis** uses $\mathbf{z}$ to study areas above the reference level $b$, while the **sublevel analysis** applies the same construction to $-\mathbf{z}$ to study areas below it.
 
 The number of connected components at each threshold is summarized by the Betti-0 curve.
 
