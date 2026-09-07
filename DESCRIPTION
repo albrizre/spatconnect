@@ -1,0 +1,25 @@
+Package: spatconnect
+Type: Package
+Title: Global and Local Indicators of Spatial Connectivity for Areal Data
+Version: 0.1.0
+Authors@R: c(
+    person("Alvaro", "Briz-Redon", email = "alvaro.briz@uv.es", role = c("aut", "cre")),
+    person("Marco", "Ruiz-Valderrama", role = "aut")
+    )
+Description: Implements graph-based global and local indicators of spatial
+    connectivity for scalar areal data. The methodology uses Betti-0 curves of
+    reference-centered superlevel and sublevel analyses, a component-specific
+    activation-merging decomposition, global random-relabeling inference, and
+    conditional local random-relabeling inference. The integrated merging
+    contribution quantifies the cumulative participation of each area in
+    component fusions across thresholds.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Suggests:
+    sf,
+    spdep,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

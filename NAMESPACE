@@ -1,0 +1,6 @@
+export(global_connectivity)
+export(local_connectivity)
+S3method(print,spatconnect_global)
+S3method(print,spatconnect_global_both)
+S3method(print,spatconnect_local)
+S3method(print,spatconnect_local_both)

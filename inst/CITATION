@@ -1,0 +1,10 @@
+bibentry(
+  bibtype = "Article",
+  title = "Global and local indicators of spatial connectivity for areal data",
+  author = c(
+    person("Alvaro", "Briz-Redon"),
+    person("Marco", "Ruiz-Valderrama")
+  ),
+  year = "2026",
+  note = "Manuscript"
+)

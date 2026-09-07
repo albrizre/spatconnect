@@ -10,13 +10,13 @@ Most classical spatial statistics focus on spatial association: whether neighbor
 
 > **Do high- or low-valued areas form connected spatial regions, and which individual areas contribute most strongly to that connectivity?**
 
-Starting from observations $(x_1,\ldots,x_n)$ on an undirected adjacency graph, the package centers and optionally scales the data,
+Starting from observations \(x_1,\ldots,x_n\) on an undirected adjacency graph, the package centers and optionally scales the data,
 
-$$
+\[
 z_i = \frac{x_i-b}{s},
-$$
+\]
 
-and studies the connected components of thresholded graphs across non-negative thresholds. The **superlevel analysis** uses $\mathbf{z}$ to study areas above the reference level $b$, while the **sublevel analysis** applies the same construction to $-\mathbf{z}$ to study areas below it.
+and studies the connected components of thresholded graphs across non-negative thresholds. The **superlevel analysis** uses \(\mathbf z\) to study areas above the reference level \(b\), while the **sublevel analysis** applies the same construction to \(-\mathbf z\) to study areas below it.
 
 The number of connected components at each threshold is summarized by the Betti-0 curve.
 
@@ -38,11 +38,11 @@ Disconnected graphs and isolated areas are allowed.
 
 ## Installation
 
-The package is currently available from GitHub.
+The package is currently available from GitHub. Replace `<GitHub-user>` with the account hosting the repository:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("albrizre/spatconnect")
+remotes::install_github("<GitHub-user>/spatconnect")
 ```
 
 Alternatively, after cloning the repository locally:
@@ -136,7 +136,7 @@ Large values of \(M_i(\mathbf z)\) indicate strong cumulative participation in t
 
 The raw magnitude of \(M_i\) is descriptive: areas that remain active over a wider range of thresholds have more opportunity to participate in merging. Local inference therefore conditions on the focal area's observed value. The resulting upper-tail test for \(M_i\) is exactly equivalent to a lower-tail test for \(L_i=A_i-M_i\).
 
-## Activation-merging decomposition
+## Activation--merging decomposition
 
 When an area enters the filtration, it may touch one or more connected components that are already active. Each such contact with a previously disconnected component generates one non-redundant fusion.
 
