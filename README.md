@@ -38,11 +38,11 @@ Disconnected graphs and isolated areas are allowed.
 
 ## Installation
 
-The package is currently available from GitHub. Replace `<GitHub-user>` with the account hosting the repository:
+The package is currently available from GitHub:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("<GitHub-user>/spatconnect")
+remotes::install_github("albrizre/spatconnect")
 ```
 
 Alternatively, after cloning the repository locally:
